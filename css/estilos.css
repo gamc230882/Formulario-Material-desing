@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #f2f2f2;
+  font-family: font-family;
+  border-top: 30px solid #303f9f; }
+
+.wrap {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 5px gray; }
+
+.contenedor-Formulario {
+  width: 100%;
+  color: #f2f2f2;
+  padding: 50px; }
+  .contenedor-Formulario .formulario {
+    width: 100%;
+    margin: auto; }
+    .contenedor-Formulario .formulario .input-group {
+      position: relative;
+      margin-bottom: 32px; }
+      .contenedor-Formulario .formulario .input-group input[type="text"],
+      .contenedor-Formulario .formulario .input-group input[type="email"],
+      .contenedor-Formulario .formulario .input-group input[type="password"] {
+        font-family: font-family;
+        font-size: 16px;
+        color: #303f9f;
+        width: 90%;
+        outline: none;
+        padding: 15px;
+        background: none;
+        border: none;
+        border-bottom: 2px solid #bbdefb; }
+        .contenedor-Formulario .formulario .input-group input[type="text"]:active,
+        .contenedor-Formulario .formulario .input-group input[type="email"]:active,
+        .contenedor-Formulario .formulario .input-group input[type="password"]:active {
+          outline: none;
+          border-bottom: 2px solid #303f9f; }
+        .contenedor-Formulario .formulario .input-group input[type="text"].error,
+        .contenedor-Formulario .formulario .input-group input[type="email"].error,
+        .contenedor-Formulario .formulario .input-group input[type="password"].error {
+          border-bottom: 2px solid #d32f2f; }
+          .contenedor-Formulario .formulario .input-group input[type="text"].error + label,
+          .contenedor-Formulario .formulario .input-group input[type="email"].error + label,
+          .contenedor-Formulario .formulario .input-group input[type="password"].error + label {
+            color: #d32f2f; }
+      .contenedor-Formulario .formulario .input-group label {
+        color: #303f9f; }
+        .contenedor-Formulario .formulario .input-group label.label {
+          position: absolute;
+          top: 16PX;
+          left: 0px;
+          font-size: 16px;
+          line-height: 16px;
+          margin-left: 16px;
+          transition: all 3s ease; }
+          .contenedor-Formulario .formulario .input-group label.label.active {
+            top: -12px;
+            font-size: 12px;
+            line-height: 12px;
+            color: #b6b6b6; }
+      .contenedor-Formulario .formulario .input-group.checkbox label, .contenedor-Formulario .formulario .input-group.radio label {
+        display: inline-block;
+        cursor: pointer;
+        color: #303f9f;
+        position: relative;
+        padding: 5px 15px 5px 51px;
+        font-size: 1em;
+        border-radius: 3px; }
+        .contenedor-Formulario .formulario .input-group.checkbox label:hover, .contenedor-Formulario .formulario .input-group.radio label:hover {
+          background: rgba(182, 182, 182, 0.7); }
+        .contenedor-Formulario .formulario .input-group.checkbox label:before, .contenedor-Formulario .formulario .input-group.radio label:before {
+          content: "";
+          position: absolute;
+          border-radius: 50%;
+          width: 17px;
+          height: 17px;
+          border: 2px solid #303f9f;
+          left: 17px;
+          top: 3px; }
+      .contenedor-Formulario .formulario .input-group.error label {
+        color: #d32f2f; }
+        .contenedor-Formulario .formulario .input-group.error label:hover {
+          background: rgba(211, 47, 47, 0.5); }
+        .contenedor-Formulario .formulario .input-group.error label:before {
+          border: 2px solid #d32f2f; }
+      .contenedor-Formulario .formulario .input-group.radio input[type="radio"] {
+        display: none; }
+        .contenedor-Formulario .formulario .input-group.radio input[type="radio"]:checked + label:before {
+          display: none; }
+        .contenedor-Formulario .formulario .input-group.radio input[type="radio"]:checked + label {
+          padding: 5px 15px;
+          background: #303f9f;
+          color: #f2f2f2;
+          border-radius: 5px; }
+      .contenedor-Formulario .formulario .input-group.checkbox input[type="checkbox"] {
+        display: none; }
+        .contenedor-Formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label:before {
+          display: none; }
+        .contenedor-Formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label {
+          padding: 5px 15px;
+          background: #303f9f;
+          color: #f2f2f2; }
+    .contenedor-Formulario .formulario input[type="submit"] {
+      background: #bbdefb;
+      border-radius: 5px;
+      cursor: pointer;
+      color: black;
+      width: 50px;
+      height: 25px;
+      font-weight: 700;
+      box-shadow: 2px px 3px gray; }
+      .contenedor-Formulario .formulario input[type="submit"]:hover {
+        background: #303f9f;
+        color: #fff;
+        font-weight: 700; }
+
+/*# sourceMappingURL=estilos.css.map */
